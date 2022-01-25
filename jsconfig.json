@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "strict": true //타입 체크를 엄격하게 진행한다는 의미
+    }, 
+    "include": [
+        "server/*" // src 밑에 있는 코드를 검사한다는 의미
+    ],
+    "exclude": ["node_modules"]
+}
